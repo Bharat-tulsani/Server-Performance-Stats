@@ -1,0 +1,48 @@
+# Server Stats Project .gitignore
+
+# Log files
+*.log
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Runtime generated files
+*.pid
+*.sock
+
+# Personal configuration files (keep examples)
+server-stats.conf
+!server-stats.conf.example
+
+# Output files that might be generated
+daily-report-*.txt
+weekly-report-*.txt
+server-trends.csv
+stats.json
+stats.csv
+
+# Backup files
+*.bak
+*.backup
+
+# Test output
+test-output/
